@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TowerDefense
 {
-    class Map
+    public class Map
     {
         private List<Tower> Towers { get; set;}
         private List<Mob> Mobs { get; set;}

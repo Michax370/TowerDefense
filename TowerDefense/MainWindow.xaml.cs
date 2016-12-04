@@ -23,6 +23,13 @@ namespace TowerDefense
         public MainWindow()
         {
             InitializeComponent();
+            Dictionary<int, int> positionTower1 = new Dictionary<int, int>();
+            positionTower1.Add(0, 0);
+            Dictionary<int, int> positionMob1 = new Dictionary<int, int>();
+            positionMob1.Add(0, 0);
+            Tower tower1 = new Tower("archer", "fleche", 100, 100, positionTower1, 50);
+            Mob mob1 = new Mob("loup", "animal", 20, 50, positionMob1);
+            int a = 0;
         }
     }
 }

@@ -55,9 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Map.cs" />
-    <Compile Include="Mob.cs" />
-    <Compile Include="Tower.cs" />
+    <Compile Include="Classes\Configuration.cs" />
+    <Compile Include="Classes\Map.cs" />
+    <Compile Include="Classes\Mob.cs" />
+    <Compile Include="Classes\Tower.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

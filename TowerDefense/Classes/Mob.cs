@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TowerDefense
 {
-    class Mob
+    public class Mob
     {
         public string Nom { get; set; }
         public string Type { get; set; }
@@ -16,11 +16,11 @@ namespace TowerDefense
 
         public Mob(String unNom, String unType, int hp, int vitesse, Dictionary<int, int> position)
         {
-            unNom = Nom;
-            unType = Type;
-            hp = Hp;
-            vitesse = Vitesse;
-            position = Position;
+            Nom = unNom;
+            Type = unType;
+            Hp = hp;
+            Vitesse = vitesse;
+            Position = position;
         }
 
         public void lancer()
