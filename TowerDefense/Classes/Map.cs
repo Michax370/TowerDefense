@@ -8,8 +8,8 @@ namespace TowerDefense
 {
     class Map
     {
-        private List<Tower> Towers;
-        private List<Mob> Mobs;
+        private List<Tower> Towers { get; set;}
+        private List<Mob> Mobs { get; set;}
 
         public Map()
         {
